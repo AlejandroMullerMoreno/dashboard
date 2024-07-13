@@ -18,3 +18,12 @@
     width: 500px;
     height: 500px;
 }
+
+body{
+    display:grid;
+    grid-template-areas:
+    'sidebar header header header'
+    'sidebar mainContent mainContent mainContent'
+    'sidebar mainContent mainContent mainContent'
+    'sidebar mainContent mainContent mainContent';
+}
