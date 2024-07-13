@@ -5,6 +5,8 @@
 #sidebar{
     grid-area: sidebar;
     background-color: blue;
+    display: flex;
+    flex-direction: column;
 }
 
 #header{
@@ -25,4 +27,8 @@ body{
     'sidebar mainContent mainContent mainContent'
     'sidebar mainContent mainContent mainContent'
     'sidebar mainContent mainContent mainContent';
+}
+
+.sidebarChild{
+    color:white;
 }
