@@ -1,32 +1,28 @@
+*{
+    margin: 0px;
+}
+
 #sidebar{
     grid-area: sidebar;
     background-color: blue;
-    /* width: 500px;
-    height: 500px; */
 }
 
 #header{
     grid-area: header;
     background-color: green;
-    /* width: 500px;
-    height: 500px; */
 }
 
 #mainContent{
     grid-area: mainContent;
     background-color: gold;
-    /* width: 500px;
-    height: 500px; */
 }
 
 body{
     display:grid;
-    grid-template: repeat(4,40px)/repeat(4,40px);
+    grid-template: repeat(4,25vh)/repeat(4,25vw);
     grid-template-areas:
     'sidebar header header header'
     'sidebar mainContent mainContent mainContent'
     'sidebar mainContent mainContent mainContent'
     'sidebar mainContent mainContent mainContent';
-    /* grid-template: repeat(4,40px)/repeat(4,40px); */
-    /* background-color: lightblue; */
 }
