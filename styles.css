@@ -16,8 +16,10 @@
 }
 
 #mainContent{
+    /* display: grid; */
     grid-area: mainContent;
     background-color: gold;
+    /* grid-template: repeat(3,175px)/repeat(3,250px); */
 }
 
 body{
@@ -32,4 +34,19 @@ body{
 
 .sidebarChild{
     color:white;
+}
+
+#mainContentGridContainer{
+    margin-top: 45px;
+    display: grid;
+    grid-template: repeat(3,175px)/repeat(3,250px);
+}
+
+.mainContentWindowOne{
+    background-color:black;
+    border: 1px solid grey;
+}
+
+.mainContentWindowTwo{
+    background-color: white;
 }
