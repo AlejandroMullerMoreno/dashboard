@@ -39,7 +39,7 @@ body{
 #mainContentGridContainer{
     margin-top: 45px;
     display: grid;
-    grid-template: repeat(3,175px)/repeat(3,250px);
+    grid-template: repeat(3,150px)/repeat(3,250px);
 }
 
 .mainContentWindowOne{
